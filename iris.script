@@ -13,4 +13,4 @@ set sc=gty.%Save()
 ZWRITE gty,sc	
 ;;
 zn "USER"
-ha
+halt
