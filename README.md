@@ -70,7 +70,7 @@ All migration actions can be executed directly from SMP.
   -  Destination Namespace = USER  
   -  Type = TABLE   
   -  Select a SQL Gateway connection: = ORACLE  ; now the first connection is established and you select 
-  -  and you select Schema = [your choice ? ]
+  -  and you select Schema = SAMPLEDB
   -  Tables to migrate:  The example has a lot of cross-references 
      It might be clever to load tables in their logical order to reduce errors
      Also, loading definitions first and data later would improve success 
