@@ -6,8 +6,8 @@ set gty.Name="ORACLE"
 set gty.Usr="SAMPLEDB"
 set gty.pwd="Welcome1"
 set gty.driver="oracle.jdbc.driver.OracleDriver"
-set gty.classpath="/opt/irisbuild/jdbc/ojdbc17.jar"
-set gty.URL="jdbc:oracle:thin:@oracle:1521"
+set gty.classpath="/opt/irisbuild/jdbc/ojdbc8.jar"
+set gty.URL="jdbc:oracle:thin:@oracle21c:1521:XE"
 set gty.isJDBC=1
 set sc=gty.%Save()
 ZWRITE gty,sc	
